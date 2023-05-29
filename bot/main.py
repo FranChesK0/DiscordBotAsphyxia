@@ -1,9 +1,9 @@
 from nextcord import Intents
 from nextcord.ext.commands import Bot
 
-from misc import Env, Config
-from cogs import register_all_cogs
-from database.models import register_models
+from bot.misc import Env, Config
+from bot.cogs import register_all_cogs
+from bot.database.models import register_models
 
 
 def start_bot():

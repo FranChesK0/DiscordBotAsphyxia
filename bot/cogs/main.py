@@ -1,8 +1,8 @@
 from nextcord.ext.commands import Bot
 
-from admin import register_admin_cogs
-from user.other import register_other_cogs
-from user import register_user_cogs
+from bot.cogs.admin import register_admin_cogs
+from bot.cogs.user.other import register_other_cogs
+from bot.cogs.user import register_user_cogs
 
 
 def register_all_cogs(bot: Bot) -> None:
